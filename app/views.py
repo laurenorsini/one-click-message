@@ -1,8 +1,8 @@
 from flask import Flask, render_template, flash, redirect, session, url_for, request, g, send_from_directory
-from app import app, db
+from app import app #, db
 from sqlalchemy import desc, insert
 from flask.ext.sqlalchemy import SQLAlchemy
-from models import Message
+# from models import Message
 from twilio.rest import TwilioRestClient 
 
 client = TwilioRestClient ('ABC', '0123') # Paste in your AccountSID and AuthToken here
