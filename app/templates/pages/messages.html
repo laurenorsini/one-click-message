@@ -1,0 +1,13 @@
+{% block title %}Messsages{% endblock %}
+{% block body %}
+<div id="form">
+
+  <h2>My One Click Messaging App</h2>  
+  
+  <p><b>Success!</b> Let's see how annoyed your friends are:</p>
+  {% for m in messages %} 
+  "{{m.body}}" <br />
+  {% endfor %}
+  
+</div>
+{% endblock %}
