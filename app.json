@@ -20,4 +20,5 @@
     "TWILIO_AUTH_TOKEN": {
       "description": "Your Twilio authentication token"
     }
+    }
 }
