@@ -1,6 +1,4 @@
-<a href="https://heroku.com/deploy?template=https://github.com/laurenorsini/one-click-message/">
-  <img src="https://www.herokucdn.com/deploy/button.png" alt="Deploy">
-</a>
+
 
 Just say "No" to Yo. 
 
