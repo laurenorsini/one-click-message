@@ -1,12 +1,19 @@
 {
   "name": "One Click Messaging",
   "description": "A custom one-click-messaging app to annoy your friends.",
-  "keywords": [
-    "Python",
-    "Flask",
-    "fun"
-  ],
-  "website": "http://readwrite.com/2014/07/11/one-click-messaging-app",
+  "logo": "https://static1.twilio.com/packages/company/img/logos_icon_round.png",
   "repository": "https://github.com/laurenorsini/one-click-message",
-  "logo": "https://small-sharp-tool.com/logo.svg"
+  "keywords": ["twilio", "python", "flask"],
+  "env": {
+	"SECRET_KEY": {
+	  "description": "A secret key for verifying the integrity of signed cookies.",
+      "generator": "secret"
+    },
+    "TWILIO_ACCOUNT_SID": {
+	  "description": "Your Twilio account id"
+    },
+    "TWILIO_AUTH_TOKEN": {
+      "description": "Your Twilio authentication token"
+    }
+  }
 }
