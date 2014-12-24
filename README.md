@@ -7,25 +7,27 @@ This Web app uses Flask and the Twilio API to make sending messages to your frie
 
 ## Requirements
 
-Flask==0.10.1
+To use this program, you'll need the following required Python libraries and programs.
 
-Jinja2==2.7.3
+Flask ver.0.10.1 - http://flask.pocoo.org/
 
-MarkupSafe==0.23
+Jinja2 ver.2.7.3 - https://pypi.python.org/pypi/Jinja2
 
-Werkzeug==0.9.6
+MarkupSafe ver.0.23 - https://pypi.python.org/pypi/MarkupSafe
 
-httplib2==0.9
+Werkzeug ver.0.9.6 - https://pypi.python.org/pypi/Werkzeug
 
-itsdangerous==0.24
+httplib2 ver.0.9 - https://pypi.python.org/pypi/httplib2
 
-six==1.7.3
+itsdangerous ver.0.24 https://pypi.python.org/pypi/itsdangerous
 
-twilio==3.6.6
+six ver.1.7.3 - https://pypi.python.org/pypi/six
 
-wsgiref==0.1.2
+twilio ver.3.6.6 - https://www.twilio.com/
 
-gunicorn==18.0
+wsgiref ver.0.1.2 - https://pypi.python.org/pypi/wsgiref
+
+gunicorn ver.18.0 - http://gunicorn.org/
 
 ## Screen Shots
 
