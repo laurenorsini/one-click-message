@@ -1,22 +1,22 @@
 <html>
-  
+
   <head>
-    <link rel="stylesheet" type="text/css" href="/static/css/form.css" /> <!--import the style-->
+    <link rel="stylesheet" type="text/css" href="../static/css/form.css" /> <!--import the style-->
   </head>
 
 <body>
-  
+
 <div id="form">
 
-  <h2>My One Click Messaging App</h2>  
-  
+  <h2>My One Click Messaging App</h2>
+
   <p><b>Success!</b> Let's see how annoyed your friends are:</p>
-  {% for m in messages %} 
+  {% for m in messages %}
   "{{m.body}}" <br />
   {% endfor %}
-  
+
 </div>
 
 </body>
-  
+
 </html>
