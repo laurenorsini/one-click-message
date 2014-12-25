@@ -3,7 +3,6 @@
 /* Form Color Styles */
 #form {
 	background-color:#eeeeee;
-	border: .20em solid #888;
 }
 
 /* Form Sizing Styles */
@@ -21,8 +20,9 @@
 
 /* Border and Shadow Styles */
 #form {
-	border-radius: 15px;
-	box-shadow: 0px 4px 15px #666;
+	border: .20em solid #888;
+	border-radius: 1em;
+	box-shadow: 0em .25em 1em #666;
 }
 
 input[type="submit"] {
