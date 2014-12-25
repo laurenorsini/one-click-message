@@ -9,7 +9,7 @@
 
 /* Form Sizing Styles */
 #form {
-	width: 60%;
+	width: 50%;
 	margin: 3em auto;
 	padding: 1.75em;
 }
@@ -59,7 +59,7 @@ input[type="submit"] {
 
 /* Input Text Width, Margin, and Padding */
 input[type="text"] {
-	width: 50%;
+	width: 12em;
 	margin: .5em 0;
 	padding: .15em 0;
 }
