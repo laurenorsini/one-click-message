@@ -2,7 +2,7 @@
 
 /* Form Color Styles */
 #form {
-	background-color:#eeeeee;
+	background-color: #eeeeee;
 }
 
 /* Form Sizing Styles */
@@ -26,13 +26,13 @@
 }
 
 input[type="submit"] {
-font-family:Helvetica;
-font-size:12px;
-background-color:#aa0000;
-padding:2px 5px 2px 5px;
-color:#fff;
-margin-right:15px;
-border:1px solid #600;
+font-family: Helvetica;
+font-size: 12px;
+background-color: #aa0000;
+padding: 2px 5px 2px 5px;
+color: #fff;
+margin-right: 15px;
+border: 1px solid #600;
 -moz-border-radius: 5px;
 border-radius: 5px;
 -moz-box-shadow: 0px 2px 4px #666;
@@ -41,5 +41,5 @@ box-shadow: 0px 2px 4px #666;
 }
 
 input[type="submit"]:hover {
-	background-color:#600;
+	background-color: #600;
 }
