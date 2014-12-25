@@ -20,6 +20,11 @@
 	font-size: 1.25em;
 }
 
+#form p {
+	font-family: 'Lucida Grande', Tahoma, sans-serif;
+	font-size: 1em;
+}
+
 #form label {
 	font-family: 'Lucida Grande', Tahoma, sans-serif;
 	font-size: .85em;
