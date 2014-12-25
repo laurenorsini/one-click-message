@@ -25,13 +25,28 @@
 	box-shadow: 0em .25em 1em #666;
 }
 
+/* ---------- Input Styles --------- */
+
+/* Input Margin and Padding */
+input[type="submit"] {
+	margin-right: 15px;
+	padding: 2px 5px 2px 5px;
+	color: #fff;
+}
+
+/* Input Background Color */
+input[type="submit"] {
+background-color: #aa0000;
+}
+
+/* Input Font Styles */
 input[type="submit"] {
 font-family: Helvetica;
-font-size: 12px;
-background-color: #aa0000;
-padding: 2px 5px 2px 5px;
-color: #fff;
-margin-right: 15px;
+font-size: .75em;
+}
+
+/* Border Styles */
+input[type="submit"] {
 border: 1px solid #600;
 border-radius: 5px;
 box-shadow: 0px 2px 4px #666;
