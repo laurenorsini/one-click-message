@@ -1,4 +1,6 @@
-/* One Click Message Form CSS - Written by Lauren Orsini. Editing by Jim Gallaher as a Github contributor */
+/* One Click Message Form CSS - Written by Lauren Orsini -  github.com/laurenorsini. Editing contributed by Jim Gallaher - github.com/jcgallaher */
+
+/* ---------- Form Styles --------- */
 
 /* Form Color Styles */
 #form {
@@ -41,7 +43,7 @@ background-color: #aa0000;
 
 /* Input Font Styles */
 input[type="submit"] {
-font-family: Helvetica;
+font-family: Helvetica, sans-serif;
 font-size: .75em;
 }
 
