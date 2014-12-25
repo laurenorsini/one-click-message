@@ -34,22 +34,29 @@
 
 /* ---------- Input Styles --------- */
 
-/* Input Margin and Padding */
+/* Input Background Color */
+input[type="submit"] {
+	background-color: #aa0000;
+}
+
+/* Input Font Styles */
+input[type="submit"] {
+	font-family: Helvetica, sans-serif;
+	font-size: .75em;
+}
+
+/* Input Submit Margin and Padding */
 input[type="submit"] {
 	margin-right: 2em;
 	padding: .20em .4em;
 	color: #fff;
 }
 
-/* Input Background Color */
-input[type="submit"] {
-background-color: #aa0000;
-}
-
-/* Input Font Styles */
-input[type="submit"] {
-font-family: Helvetica, sans-serif;
-font-size: .75em;
+/* Input Text Width, Margin, and Padding */
+input[type="text"] {
+	width: 50%;
+	margin: .5em 0;
+	padding: .15em 0;
 }
 
 /* Border Styles */
