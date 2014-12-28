@@ -1,38 +1,76 @@
-/* CSS Document */
+/* One Click Message Form CSS - Written by Lauren Orsini -  github.com/laurenorsini. Contributed editing by Jim Gallaher - github.com/jcgallaher */
 
-#form{
-width:550px;
-background-color:#eeeeee;
-margin-left:auto;
-margin-right:auto;
-padding:20px;
-margin-top:35px;
-margin-bottom:40px;
-border:3px solid #888;
-font-family:Lucida Grande, Tahoma, sans-serif;
-font-size:12px;
--moz-border-radius: 15px;
-border-radius: 15px;
--moz-box-shadow: 0px 4px 15px #666;
--webkit-box-shadow: 0px 4px 15px #666;
-box-shadow: 0px 4px 15px #666;
+/* ---------- Form Styles --------- */
+
+/* Form Color Styles */
+#form {
+	background-color: #eeeeee;
 }
 
+/* Form Sizing Styles */
+#form {
+	width: 50%;
+	margin: 3em auto;
+	padding: 1.75em;
+}
+
+/* Form Font Styling */
+#form h2 {
+	font-family: 'Lucida Grande', Tahoma, sans-serif;
+	font-size: 1.25em;
+}
+
+#form p {
+	font-family: 'Lucida Grande', Tahoma, sans-serif;
+	font-size: 1em;
+}
+
+#form label {
+	font-family: 'Lucida Grande', Tahoma, sans-serif;
+	font-size: .85em;
+}
+
+/* Border and Shadow Styles */
+#form {
+	border: .20em solid #888;
+	border-radius: 1em;
+	box-shadow: 0em .25em 1em #666;
+}
+
+/* ---------- Input Styles --------- */
+
+/* Input Background Color */
 input[type="submit"] {
-font-family:Helvetica;
-font-size:12px;
-background-color:#aa0000;
-padding:2px 5px 2px 5px;
-color:#fff;
-margin-right:15px;
-border:1px solid #600;
--moz-border-radius: 5px;
-border-radius: 5px;
--moz-box-shadow: 0px 2px 4px #666;
--webkit-box-shadow: 0px 2px 4px #666;
-box-shadow: 0px 2px 4px #666;
+	background-color: #aa0000;
+}
+
+/* Input Font Styles */
+input[type="submit"] {
+	font-family: Helvetica, sans-serif;
+	font-size: .75em;
+}
+
+/* Input Submit Margin and Padding */
+input[type="submit"] {
+	margin-right: 2em;
+	padding: .20em .4em;
+	color: #fff;
+}
+
+/* Input Text Width, Margin, and Padding */
+input[type="text"] {
+	width: 12em;
+	margin: .5em 0;
+	padding: .15em 0;
+}
+
+/* Border Styles */
+input[type="submit"] {
+border: .10em solid #600;
+border-radius: .4em;
+box-shadow: 0 .15em .4em #666;
 }
 
 input[type="submit"]:hover {
-	background-color:#600;
+	background-color: #600;
 }
